@@ -1,0 +1,99 @@
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-h{
+    padding: 2rem;
+    padding-top: 1.5rem;
+    flex: 3;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-h{
+    flex:1
+}
+
+.the-best-ad{
+    margin-top: 4rem;
+    background-color: #d4d4d4;
+    border-radius: 4rem;
+    width: fit-content;
+    padding: 20px 13px;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: black;
+    text-overflow: inherit;
+}
+
+.hero-text>div:nth-of-type(2){
+    font-size: 1rem;
+    font-weight: 200;
+    text-transform: none;
+    letter-spacing: 1px;
+    width: 80%;
+}
+
+.hero-buttons{
+    display: flex;
+    gap: 1rem;
+    font-weight: normal;
+}
+
+.hero-buttons>:nth-child(1){
+    color: white;
+    background-color: var(--blue);
+    width: 8rem;
+}
+
+.hero-buttons>:nth-child(2){
+    color: white;
+    background-color: transparent;
+    width: 8rem;
+    border: 2px solid var(--blue);
+}  
+
+.right-h{
+    flex: 1;
+    position: relative;
+    background-color: var(--blue);
+}
+
+.right-h>.btn{
+    position: absolute;
+    right: 3rem;
+    top: 2rem;
+    color: black;
+}
+
+.hero-image{
+    position: absolute;
+    top: 8rem;
+    right: 8rem;
+    width: 90%;
+    transform: scaleX(-1);
+}
+
+.hero-image-back{
+    position: absolute;
+    top: 5rem;
+    right: 20rem;
+    z-index: -1;
+    width: 80%;
+}
+
