@@ -37,9 +37,6 @@
     text-transform: uppercase;
     text-shadow: 2px 2px 4px #b5b5b5
   }
-  .video{
-    width: 100%;
-  }
 
   @media only screen and (max-width: 768px){
     .Player{

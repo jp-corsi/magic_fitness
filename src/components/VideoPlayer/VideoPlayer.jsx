@@ -7,7 +7,7 @@ const VideoPlayer = () => {
     return (
     <div className='Player'>
         <div  className='left-container'>
-<ReactPlayer className="video" url="https://youtube.com/shorts/zdy7_BZNMtQ?feature=sharehttps://youtube.com/shorts/zdy7_BZNMtQ?feature=share" />
+<ReactPlayer width="100%" className="video" url="https://youtube.com/shorts/zdy7_BZNMtQ?feature=sharehttps://youtube.com/shorts/zdy7_BZNMtQ?feature=share" />
         </div>
         <div className='right-container'>
             <span className='right-text'>AI POWER.</span>
