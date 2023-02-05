@@ -12,3 +12,5 @@
 [debug] [2023-02-05T15:49:26.566Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/magic-fitness-c727f:testIamPermissions [none]
 [debug] [2023-02-05T15:49:26.566Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/magic-fitness-c727f:testIamPermissions x-goog-quota-user=projects/magic-fitness-c727f
 [debug] [2023-02-05T15:49:26.566Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/magic-fitness-c727f:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-02-05T15:50:41.597Z] [iam] error while checking permissions, command may fail: FirebaseError: Failed to make request to https://cloudresourcemanager.googleapis.com/v1/projects/magic-fitness-c727f:testIamPermissions
+[debug] [2023-02-05T15:50:41.601Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/magic-fitness-c727f [none]
