@@ -14,3 +14,10 @@
 [debug] [2023-02-05T15:49:26.566Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/magic-fitness-c727f:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
 [debug] [2023-02-05T15:50:41.597Z] [iam] error while checking permissions, command may fail: FirebaseError: Failed to make request to https://cloudresourcemanager.googleapis.com/v1/projects/magic-fitness-c727f:testIamPermissions
 [debug] [2023-02-05T15:50:41.601Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/magic-fitness-c727f [none]
+[debug] [2023-02-05T15:51:11.603Z] Timeout reached making request to https://firebase.googleapis.com/v1beta1/projects/magic-fitness-c727f
+[debug] [2023-02-05T15:51:16.617Z] Error: Timed out.
+    at Timeout._onTimeout (/usr/local/lib/node_modules/firebase-tools/lib/utils.js:253:49)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[error] 
+[error] Error: An unexpected error has occurred.
