@@ -1,0 +1,53 @@
+.Player{
+    padding: 0 2rem;
+    display: flex;
+    grid-template: 2rem;
+}
+
+.player-wrapper {
+    position: relative;
+    padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+  }
+  
+  .react-player {
+    position: absolute;
+  }
+
+  .left-container{
+    padding: 5rem;
+    padding-top: 2rem;
+    flex: 1 1;
+  }
+
+  .right-container{
+    flex: 1 1;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-right: 5REM;
+    font-size: 1.4rem;
+  }
+
+  .right-text{
+    display: flex;
+    font-weight: bold;
+    font-size: 3rem;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #b5b5b5
+  }
+  .video{
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 768px){
+    .Player{
+        flex-direction: column;
+    }
+    .left-container{
+        width: auto;
+        padding: 0;
+    }
+    
+  }

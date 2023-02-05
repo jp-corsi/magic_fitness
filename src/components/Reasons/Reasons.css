@@ -1,0 +1,17 @@
+.Reasons{
+    padding: 0 2rem;
+    display: flex;
+    grid-template: 2rem;
+}
+
+.left-r{
+    flex: 1 1;
+}
+
+.right-r{
+    flex: 1 1;
+    text-transform: uppercase;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}

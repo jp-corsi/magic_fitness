@@ -16,7 +16,7 @@ export const programsData = [
     ),
     heading: "Layup",
     details:
-      "In this program, you are trained to improve your strength through many exercises.",
+      "In this program, you are trained on one of the most essential finishes in basketball.",
   },
   {
     image: <svg width="16" height="17" viewBox="0 0 16 17"  xmlns="http://www.w3.org/2000/svg">
@@ -29,7 +29,7 @@ export const programsData = [
     </svg>,
     heading: "Dunk",
     details:
-      "In this program, you are trained to do sequential moves in range of 20 until 30 minutes.",
+      "Build yourself up to dunk like some of the best players in the NBA with our formulated bootcamp.",
   },
   {
     image: <svg width="12" height="16" viewBox="0 0 12 16"  xmlns="http://www.w3.org/2000/svg">
@@ -38,7 +38,7 @@ export const programsData = [
     ,
     heading: "3 Pointer",
     details:
-      "This program is suitable for you who wants to get rid of your fat and lose their weight.",
+      "Get ready to shoot the lights out by improving your 3-point accuracy to professional levels.",
   },
   {
     image: <svg width="20" height="16" viewBox="0 0 20 16"  xmlns="http://www.w3.org/2000/svg">
@@ -47,7 +47,7 @@ export const programsData = [
     ,
     heading: "Free Throw",
     details:
-      "This programs is designed for those who exercises only for their body fitness not body building.",
+      "Have confidence on the line by becoming a dependent free throw shooter with our specialy formualted drills.",
   },
 ];
 

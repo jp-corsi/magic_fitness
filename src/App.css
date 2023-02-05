@@ -1,12 +1,12 @@
 /* make variables */
 :root {
   --lightgray: #D9D9D9;
-  --gray: #9c9c9c;
+  --gray: #e9e9e9;
   --orange: #f48915;
   --darkGrey: #464D53;
-  --caloryCard: #656565;
-  --planCard: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
-  --appColor:  #e4e4e4;
+  --caloryCard: #b1b1b1;
+  --planCard: linear-gradient(210.41deg, #236eee 1.14%, #afcaff 100.75%);
+  --appColor:  #dddddd;
   --blue: #577cea;
 }
 
@@ -27,20 +27,33 @@
   color: transparent;
   font-family: Arial, Helvetica, sans-serif;
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
 }
 
 .btn{
   background-color: white;
-  padding: 0.5rem;
+  padding: 0.3rem;
   font-weight: bold;
-  border: 4px solid transparent;
+  border: 5px solid transparent;
   transition: 300ms all;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 2rem;
 }
 
 .btn:hover{
   cursor: pointer;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.blur{
+  background: rgb(255, 255, 255);
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(212px);
+  z-index: -9;
 }

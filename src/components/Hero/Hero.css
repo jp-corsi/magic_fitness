@@ -83,9 +83,9 @@
 
 .hero-image{
     position: absolute;
-    top: 8rem;
+    top: 4rem;
     right: 8rem;
-    width: 90%;
+    width: 95%;
     transform: scaleX(-1);
 }
 
@@ -97,3 +97,47 @@
     width: 80%;
 }
 
+.hero-blur{
+    width: 22rem;
+    height: 30rem;
+    left: 0;
+}
+
+@media only screen and (max-width: 768px){
+    .hero{
+        flex-direction: column;
+    }
+    .hero-blur{
+        width: 14rem;
+        
+    }
+    .hero-text{
+        font-size: xx-large;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero-text>div:nth-of-type(2){
+        font-size: small;
+        font-weight: 200;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+     .hero-buttons{
+        justify-content: center;
+        font-size: small;
+     }
+
+     .right-h{
+        position: relative;
+        background: none;
+     }
+
+     .hero-image{
+        position: relative;
+        width: 16rem;
+        left: -15rem;
+        top: 1.8rem;
+        align-self: center;
+     }
+
+}
