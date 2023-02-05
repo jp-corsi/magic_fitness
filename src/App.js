@@ -9,7 +9,7 @@ function App() {
           <Hero/>
           <Programs/>
           <VideoPlayer/>
-          <Plans/>
+          <Plans />
     </div>
   );
 }

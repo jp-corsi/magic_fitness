@@ -35,8 +35,8 @@ const Hero = () => {
             
             </div>
             <div className="hero-buttons">
-                <buttons className="btn">Get Started</buttons>
-                <buttons className="btn">Learn More</buttons>
+                <div className="btn">Get Started</div>
+                <div className="btn">Learn More</div>
             </div>
            </div>
            

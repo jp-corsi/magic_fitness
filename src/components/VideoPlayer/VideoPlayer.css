@@ -46,8 +46,7 @@
         flex-direction: column;
     }
     .left-container{
-        width: auto;
         padding: 0;
+        width: auto;
     }
-    
   }
