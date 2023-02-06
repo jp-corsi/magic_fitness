@@ -83,15 +83,14 @@
 
 .hero-image{
     position: absolute;
-    top: 4rem;
+    top: 5rem;
     right: 8rem;
     width: 95%;
-    transform: scaleX(-1);
 }
 
 .hero-image-back{
     position: absolute;
-    top: 5rem;
+    top: 6rem;
     right: 20rem;
     z-index: -1;
     width: 80%;
@@ -134,8 +133,8 @@
 
      .hero-image{
         position: relative;
-        width: 16rem;
-        left: -15rem;
+        width: 18rem;
+        left: 4rem;
         top: 1.8rem;
         align-self: center;
      }

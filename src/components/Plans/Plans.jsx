@@ -6,9 +6,8 @@ const Plans = () => {
     return (
         <div className="plans-container">
             <div className="programs-header">
-                <span>READY</span>
-                <span>TO</span>
-                <span>JOIN?</span>
+                <span>READY TO JOIN?</span>
+               
             </div>
 
             <div className="plans">
@@ -17,10 +16,8 @@ const Plans = () => {
                         {plan.icon}
                         <span>{plan.name}</span>
                         <span> ${plan.price}</span>
-
-                        
                         <div>
-                            <span>See more benefits</span>
+                            <span>Learn More</span>
                         </div>
                         <button className="btn">Join Now</button>
                         </div>

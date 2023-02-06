@@ -6,9 +6,7 @@ const Programs = () => {
     return (
         <div className='Programs' id="programs">
             <div className="programs-header">
-            <span>perfect</span>
-            <span>your</span>
-            <span>skillz</span>
+            <span>perfect your skllz</span>
             </div>
 
             <div className="program-categories">

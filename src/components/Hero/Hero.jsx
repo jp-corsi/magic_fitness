@@ -41,14 +41,10 @@ const Hero = () => {
            </div>
            
             <div className="right-h">
-                <button className='btn'>Join Now</button>
-                <motion.div 
-                initial={{right:"1rem"}}
-                whileInView={{left:"-14rem"}}
-                transition={{...transition}}
-                className="hero-image">
+                
+                
                 <img src={hero_image} alt="" className="hero-image" /> 
-                </motion.div>
+                
 
             </div>
         </div>

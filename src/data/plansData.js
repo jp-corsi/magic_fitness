@@ -11,7 +11,7 @@ export const plansData = [
       </svg>
     ),
     name: "MONTHLY PLAN",
-    price: "7.99",
+    price: "24.99",
     
   },
   {
@@ -26,7 +26,7 @@ export const plansData = [
       </svg>
     ),
     name: "YEARLY PLAN",
-    price: "79.99",
+    price: "249.99",
     
   },
   {
@@ -41,7 +41,7 @@ export const plansData = [
       </svg>
     ),
     name: "TEAM PLAN",
-    price: "599.99",
+    price: "1,799.99",
     
   },
 ];
