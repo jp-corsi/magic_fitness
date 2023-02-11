@@ -1,3 +1,8 @@
+Landing page for our AI based fitness application for the Olrando Magic Innovation Challenge. Created in ~24hrs.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
