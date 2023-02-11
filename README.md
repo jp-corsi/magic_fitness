@@ -1,4 +1,4 @@
-Landing page for our AI based fitness application for the Olrando Magic Innovation Challenge. Created in ~24hrs.
+Landing page for our AI based fitness application for the Orlando Magic Innovation Challenge. Created in ~24hrs.
 
 
 
